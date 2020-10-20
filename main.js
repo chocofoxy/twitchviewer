@@ -19,7 +19,7 @@ const worker = async (ip) => {
             timeout: 4000
         });
         await page.waitFor(40000)
-        await page.close();
+        //await page.close();
 
     } catch (e) {
         console.log(" error at bot ip", ip);
